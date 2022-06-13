@@ -7,7 +7,7 @@ const { Client } = require("pg");
 const prismaCli = "./node_modules/.bin/prisma";
 
 require("dotenv").config({
-  path: resolve(__dirname, "..", ".env"),
+  path: resolve(__dirname, "..", ".env.test"),
 });
 
 class CustomEnvironment extends NodeEnvironment {
